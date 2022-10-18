@@ -1,0 +1,18 @@
+{
+    "defaultCommandTimeout": 120000,
+    "execTimeout": 120000,
+    "taskTimeout": 120000,
+    "pageLoadTimeout": 120000,
+    "requestTimeout": 120000,
+    "responseTimeout": 120000,
+    "integrationFolder": "cypress",
+    "fixturesFolder": "cypress/fixtures",
+    "testFiles": "**/*.{feature,features}",
+    "ignoreTestFiles": "*.js",
+    "projectId": "teslvova",
+    "env": {
+        "ENV": "https://g.codefresh.io/",
+        "TEST_USER": "codefresh-v2-e2e-managed-runtime",
+        "TEST_PWD": "wZ9MXp3e8j9WUQhBZCHT"
+    }
+}
